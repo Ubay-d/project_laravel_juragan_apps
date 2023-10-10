@@ -10,5 +10,5 @@ class UserController extends Controller
 
         return view('user.user_dashboard');
 
-    } // End User
+    } // End Method
 }
