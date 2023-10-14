@@ -46,3 +46,5 @@ Route::middleware(['auth','role:user'])->group(function(){
     Route::get('/user/dashboard', [UserController::class, 'UserDashboard'])->name('user.dashboard');
 
 }); // End Group User Middleware
+
+Route::get('/admin/login', [AdminController::class, 'AdminLogin'])->name('admin.login');
